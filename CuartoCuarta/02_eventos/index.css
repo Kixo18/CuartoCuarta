@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(67, 133, 233);
+}
+h1{
+    color: rgb(17, 16, 16);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+button{
+    width: 200px;
+    height: 40px;
+
+}
+/* Una clase se seleciona con un punto */
+.verde{
+    background-color: rgb(2, 207, 2);
+    color: rgb(245, 240, 240);
+    margin-right: 15px;
+}
+
+.rojo{
+    background-color: red;
+    color: rgb(245, 240, 240);
+    margin-right: 15px;
+}
+
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+
+.Salir{
+    background-color: rgb(7, 7, 223);
+    margin-left: 0px;
+    color: rgb(245, 240, 240);
+}
+
+
+
+
+
